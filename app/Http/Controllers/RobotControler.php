@@ -37,6 +37,11 @@ class RobotsController Extends Controller{
     }
 
     public function formReview(){
-        
+        $Technical = $this->Technical;
+        return view ('show'['tecnical' => $Technical]),
+    }
+
+    public function review(Require $request){
+
     }
 }
